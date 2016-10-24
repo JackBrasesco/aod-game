@@ -14,8 +14,8 @@ function moveLeft() {
 
 $(document).keydown(function(e) {
   if(e.which == 65) {
+    moveLeft()
     console.log("hi")
   }
 });
 
-console.log("Hi")
