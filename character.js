@@ -12,3 +12,10 @@ function moveLeft() {
   player.css("margin-left","-=50");
 }
 
+document.onkeydown = function(e){
+  e = e || window.event;
+  var key = e.which || e.keyCode;
+  if(key===64){
+    moveLeft();
+  }
+}
