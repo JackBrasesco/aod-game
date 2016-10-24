@@ -5,7 +5,7 @@ function moveDown() {
 }
 
 function moveRight() {
-  player.css("margin-left","+=1");
+  player.css("margin-left","+=50");
 }
 
 function moveLeft() {
@@ -23,3 +23,5 @@ function keyboard(event) {
     break;
   }
 }
+
+setTimeout("
