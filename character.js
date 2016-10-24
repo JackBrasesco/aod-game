@@ -12,3 +12,6 @@ function moveLeft() {
   player.css("margin-left","-=50");
 }
 
+function keyboard() {
+  
+}
