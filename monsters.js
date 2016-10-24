@@ -1,3 +1,7 @@
 var up = $("#monster")
 
-u
+function move() {
+  up.css("margin-top: 51")
+  
+}
+move()
