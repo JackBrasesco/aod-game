@@ -1,7 +1,8 @@
 var up = $("#monster")
 
 function move() {
-  var 
-  up.css("margin-top", "200")
+  var yLocation = up.css("margin-top")
+  up.css("margin-top", "yLocation + 50")
 }
 
+move()
