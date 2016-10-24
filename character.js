@@ -12,16 +12,3 @@ function moveLeft() {
   player.css("margin-left","-=50");
 }
 
-function keyboard(event) {
-  switch (event.keyCode) {
-    case 68:
-      moveRight();
-    break;
-      
-    case 65:
-      moveLeft();
-    break;
-  }
-}
-
-setTimeout("
