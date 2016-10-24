@@ -16,6 +16,10 @@ function keyboard(event) {
   switch (event.keyCode) {
     case 68:
       moveRight();
+    break;
       
+    case 65:
+      moveLeft();
+    break;
   }
 }
