@@ -1,1 +1,3 @@
-var up = $("#monster").css({
+var up = $("#monster")
+
+u
