@@ -1,1 +1,1 @@
-var yAxis = $("#player")
+var yAxis = $("#player").css("margin-top")
