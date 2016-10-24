@@ -1,8 +1,12 @@
-var up = $("#player")
+var player = $("#player")
 
 function moveDown() {
-  up.css("margin-top", "+=50")
+  player.css("margin-top", "+=1")
 }
 
-function
+function moveRight() {
+  player.css("margin-left","+=1")
+}
+
+function moveLeft()
 
