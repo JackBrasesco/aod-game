@@ -5,17 +5,20 @@ function moveDown() {
 }
 
 function moveRight() {
-  player.css("margin-left","+=50");
+  player.css("margin-left","+=5");
 }
 
 function moveLeft() {
-  player.css("margin-left","-=50");
+  player.css("margin-left","-=5");
 }
 
 $(document).keydown(function(e) {
   if(e.which == 65) {
-    moveLeft()
+    moveLeft();
     console.log("hi")
+  }
+  if(e.which == 68) {
+    moveRight();
   }
 });
 
