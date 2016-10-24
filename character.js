@@ -12,9 +12,10 @@ function moveLeft() {
   player.css("margin-left","-=50");
 }
 
-$(document).keypress(function(e) {
+$(document).keydown(function(e) {
   if(e.which == 65) {
     console.log("hi")
   }
 });
 
+console.log("Hi")
